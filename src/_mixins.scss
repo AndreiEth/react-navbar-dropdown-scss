@@ -1,0 +1,22 @@
+@mixin flex-center() {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@mixin padding-margin-null-auto() {
+  padding: 0;
+  margin: 0 auto;
+}
+
+@mixin flex-row() {
+	display: flex;
+	flex-direction: row;
+}
+
+@mixin flex-column() {
+	display: flex;
+	flex-direction: column;
+}
+
+

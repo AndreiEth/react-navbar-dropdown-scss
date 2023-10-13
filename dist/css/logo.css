@@ -1,0 +1,9 @@
+.logo {
+  background-color: transparent;
+  background: url(../../images/logo.svg);
+  width: 104px;
+  background-repeat: no-repeat;
+}
+.logo :hover {
+  cursor: pointer;
+}/*# sourceMappingURL=logo.css.map */

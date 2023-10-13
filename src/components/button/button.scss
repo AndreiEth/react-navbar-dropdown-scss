@@ -1,0 +1,21 @@
+@import "../../vars";
+
+.btn {
+  border: none;
+  background: transparent;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: "Onest";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  background: $button-color;
+  border-radius: 100px;
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: $text-color;
+}
